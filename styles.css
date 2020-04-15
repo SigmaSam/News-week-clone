@@ -35,7 +35,7 @@ h6 {
   position: absolute;
   z-index: -1;
   left: 100%;
-  top: 0px;
+  top: 0;
   border-top: 20px solid transparent;
   border-left: 20px solid white;
   border-bottom: 20px solid transparent;
@@ -58,6 +58,7 @@ h6 {
   padding: 0.2rem;
   color: white;
 }
+
 .navbar-middle-lg {
   width: 400px;
   padding: 0.2rem;
@@ -190,9 +191,11 @@ h3 {
   html {
     font-size: 12px;
   }
+
   .ad-container {
     height: auto;
   }
+
   .font-small {
     font-size: 10px;
   }
