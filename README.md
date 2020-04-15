@@ -6,11 +6,7 @@
 
 This website contains:
 
-- A Navbar made with flex.
-- A main section made with grid.
-- A footer made with flex.
-- A latest deals, latest news and features section made with grid.
-- we used fontawesome for the icons
+- Every element from the origin website using bootstrap grid layout.
 
 ## Built With
 
@@ -25,18 +21,12 @@ This website contains:
 - Twitter: [@twitterhandle](https://twitter.com/mauricio_fow)
 - Linkedin: [linkedin](https://www.linkedin.com/in/mauricio-fow-aranibar-b2173514b/)
 
-👤 **Muhammad Fahad Umer**
-
-- Github: [@MFahadUmer](https://github.com/MFahadUmer)
-- Twitter: [@engfahadumer](https://twitter.com/engfahadumer)
-- Linkedin: [linkedin](https://www.linkedin.com/in/engineer-muhammad-fahad-e-umer-08813055/)
-
 ## Getting started
 
 - Clone the repository with:
   `git clone git@github.com:thedekerone/tnw-clone.git`
 
-- See the original page here: https://thenextweb.com/
+- See the original page here: https://www.newsweek.com/
 
 - Check the index.html to edit the structure of the page.
 
@@ -54,4 +44,4 @@ Give a ⭐️ if you like this project!
 
 ## Live preview
 
-You can check how the website looks in: [Live preview](https://rawcdn.githack.com/thedekerone/tnw-clone/4e5a87e0d0b15d65e0e0eed674622d70609d0ff1/index.html)
+You can check how the website looks in: [Live preview](https://rawcdn.githack.com/thedekerone/News-week-clone/05eeb68bb7644f5470cf34ba0cb5fdb747a161e0/index.html)
