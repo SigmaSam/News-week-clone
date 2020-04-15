@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+b {
+  line-height: 1.1;
+}
+
+h6 {
+  text-transform: uppercase;
+}
+
+.author {
+  color: rgb(110, 110, 110);
+  font-size: 0.8rem;
+}
+
 .second-navbar {
   margin-top: -16px;
   position: relative;
@@ -86,11 +99,16 @@
 
 .vs-image {
   margin-top: -0.8rem;
+  width: 70px;
 }
 
 .vs-icon {
   width: 40px;
   height: 40px;
+}
+
+.extra-img {
+  width: 150px;
 }
 
 .border-red,
@@ -107,8 +125,8 @@
 }
 
 .n-icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .magazine-img-container {
@@ -130,6 +148,26 @@
 
 .img-fit {
   object-fit: cover;
+}
+
+h3 {
+  color: #f72210;
+}
+
+.ad-extra-img {
+  left: 60px;
+  top: 18px;
+}
+
+.img-tag {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.753);
+  color: #f72210;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  left: 0;
+  bottom: 0;
+  font-weight: bold;
 }
 
 .bg-grey {
