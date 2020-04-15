@@ -12,6 +12,7 @@ This website contains:
 
 - HTML5
 - CSS3
+- Bootstrap
 
 ## Authors
 
