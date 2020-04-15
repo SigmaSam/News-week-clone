@@ -47,7 +47,7 @@
 }
 
 .fa-bars {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .vs-container {
@@ -117,5 +117,17 @@
 }
 
 .font-small {
-  font-size: 12px;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 770px) {
+  html {
+    font-size: 12px;
+  }
+  .ad-container {
+    height: auto;
+  }
+  .font-small {
+    font-size: 10px;
+  }
 }

@@ -24,7 +24,7 @@
   </head>
   <body class="bg-light">
     <header class="container-xl container-fluid px-0">
-      <nav class="navbar navbar-light bg-red position-relative  d-flex align-items-center ">
+      <nav class="navbar navbar-light bg-red position-relative  flex-nowrap  d-flex align-items-center ">
         
         <a class="navbar-middle d-lg-none d-block "  href="#">
           <svg
@@ -46,10 +46,11 @@
             </g>
           </svg>
         </a>
-        <div class="py-lg-4 mt-2  ml-3">
+        <div class="py-lg-4 mt-2 mr-auto  ml-3">
           <div class="navbar-left d-sm-block d-none  text-white font-weight-bold">
-            Is it hot in here_
-  
+            <i class="fas fa-cloud-sun"></i> <span>28° </span>
+            <span class="ml-2">Huaraz, PE</span>
+            <i class="fas fa-chevron-right ml-2"></i>
           </div>
           <div class="navbar-left d-lg-block d-none  text-white font-weight-bold">
             Wed, apr 15, 2020
@@ -75,32 +76,35 @@
             </g>
           </svg>
         </a>
-        <div
-          class="btn-group ml-auto mr-3"
-          role="group"
-          aria-label="Basic example"
-        >
-          <button type="button" class="btn font-weight-bold text-white">
-            SIGN IN
-          </button>
-          <button
-            type="button"
-            class="btn font-weight-bold rounded-0 bg-white text-red text-danger"
+        <div class="d-flex align-items-center">
+
+          <div
+            class="btn-group ml-auto mr-1"
+            role="group"
+            aria-label="Basic example"
           >
-            SUBSCRIBE
+            <button type="button" class="btn font-weight-bold text-white">
+              SIGN IN
+            </button>
+            <button
+              type="button"
+              class="btn font-weight-bold rounded-0 bg-white text-red text-danger"
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+          <button
+            class="navbar-toggler text-white border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
           </button>
         </div>
-        <button
-          class="navbar-toggler text-white border-0"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
       </nav>
     </header>
 
@@ -253,7 +257,7 @@
 
           <h4>Heroes of the Pandemic</h4>
           <div class="row">
-            <div class="col col-4">
+            <div class="col-lg-4 col-12">
               <img
                 src="https://d.newsweek.com/en/full/1581414/via-borgognona-rome-italy-april-2020.jpg?w=591&h=364&f=72ab8ea7e28b3908a9f65330ec65ef57"
                 alt=""
@@ -268,7 +272,7 @@
                 Harlem restaurant Santiago's Beer Garden, told Newsweek.
               </p>
             </div>
-            <div class="col col-4">
+            <div class="col-lg-4 col-12">
               <img
                 src="https://d.newsweek.com/en/full/1581414/via-borgognona-rome-italy-april-2020.jpg?w=591&h=364&f=72ab8ea7e28b3908a9f65330ec65ef57"
                 alt=""
@@ -283,7 +287,7 @@
                 Harlem restaurant Santiago's Beer Garden, told Newsweek.
               </p>
             </div>
-            <div class="col col-4">
+            <div class="col-lg-4 col-12">
               <img
                 src="https://d.newsweek.com/en/full/1581414/via-borgognona-rome-italy-april-2020.jpg?w=591&h=364&f=72ab8ea7e28b3908a9f65330ec65ef57"
                 alt=""
@@ -306,7 +310,7 @@
 
           <h4>Heroes of the Pandemic</h4>
           <div class="row">
-            <div class="col col-4">
+            <div class="col-lg-4 col-12">
               <img
                 src="https://d.newsweek.com/en/full/1581414/via-borgognona-rome-italy-april-2020.jpg?w=591&h=364&f=72ab8ea7e28b3908a9f65330ec65ef57"
                 alt=""
@@ -321,7 +325,7 @@
                 Harlem restaurant Santiago's Beer Garden, told Newsweek.
               </p>
             </div>
-            <div class="col col-4">
+            <div class="col-lg-4 col-12">
               <img
                 src="https://d.newsweek.com/en/full/1581414/via-borgognona-rome-italy-april-2020.jpg?w=591&h=364&f=72ab8ea7e28b3908a9f65330ec65ef57"
                 alt=""
@@ -336,7 +340,7 @@
                 Harlem restaurant Santiago's Beer Garden, told Newsweek.
               </p>
             </div>
-            <div class="col col-4">
+            <div class="col-lg-4 col-12">
               <img
                 src="https://d.newsweek.com/en/full/1581414/via-borgognona-rome-italy-april-2020.jpg?w=591&h=364&f=72ab8ea7e28b3908a9f65330ec65ef57"
                 alt=""
@@ -1375,7 +1379,7 @@
         <div class="col-lg-8 col-12 ">
           <h4>AEA MONGOL</h4>
           <div
-            class="bg-grey d-flex justify-content-center flex-column flex-md-row align-items-center p-4 h-100 ad-container"
+            class="bg-grey d-flex justify-content-center flex-column flex-md-row align-items-center p-4  ad-container"
           >
             <div>
               <img
@@ -1398,9 +1402,9 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-lg-0 mt-5 col-12">
+        <div class="col-lg-4 mt-lg-0 mt-5 col-12 ">
           <h4>mongolazo</h4>
-          <div class="d-flex ad-container border flex-column flex-md-row">
+          <div class="d-flex ad-container border flex-column flex-md-row text-center">
             <div class=" h-100">
               <img
                 class="w-100 h-100 img-fit"
@@ -1409,7 +1413,7 @@
               />
             </div>
             <div
-              class="w-100 d-flex flex-column justify-content-center align-items-center"
+              class="w-100 d-flex flex-column justify-content-center align-items-center py-4"
             >
               <h6>something here</h6>
               <p>yeah theres something</p>
@@ -1427,7 +1431,7 @@
     <div class="container-xl mt-4 bg-white">
       <div class="row border-bottom
       pb-3">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
           <div class="footer-logo">
             <svg
               version="1.1"
@@ -1449,42 +1453,42 @@
             </svg>
           </div>
         </div>
-        <div class="col-2">icons placeholder</div>
+        <div class="col-lg-2 col-12">icons placeholder</div>
       </div>
       <div class="row my-2">
         <div class="col-12">
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item border-0 pl-0">
+          <ul class="list-group list-group-horizontal flex-wrap align-items-center ">
+            <li class="list-group-item border-0 p-1 pl-0">
               <span class="font-weight-bold">
                 Editions:
               </span>
             </li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right font-small">U.S. EDITION</li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
 
-          <ul class="list-group list-group-horizontal flex-wrap">
+          <ul class="list-group list-group-horizontal flex-wrap align-items-center">
             
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
-            <li class="list-group-item border-top-0 border-bottom-0 border-right font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
+            <li class="list-group-item border-top-0 border-bottom-0 p-1 border-right-0 font-small">U.S. EDITION</li>
           </ul>
         </div>
       </div>
@@ -1493,20 +1497,5 @@
 
     <!-- footer end -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
