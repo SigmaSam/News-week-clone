@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.social-icon {
+  font-size: 1.4rem;
+}
+
 .container-xl {
   max-width: 1350px !important;
 }
@@ -120,7 +124,7 @@
   font-size: 0.8rem;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1000px) {
   html {
     font-size: 12px;
   }
