@@ -17,6 +17,14 @@ h6 {
   font-size: 0.8rem;
 }
 
+.search-button {
+  transition: 0.8s;
+}
+
+.search-button:focus {
+  width: 100%;
+}
+
 .second-navbar {
   margin-top: -16px;
   position: relative;
@@ -25,7 +33,17 @@ h6 {
 
 .before-container {
   position: relative;
+  top: 0;
+  background-color: white;
+  height: 100%;
   z-index: 3;
+  transition: 0.8s;
+}
+
+.before-container:focus-within {
+  position: absolute;
+  width: calc(100% - 80px);
+  right: 80px;
 }
 
 .before-container::before {

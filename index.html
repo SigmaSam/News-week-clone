@@ -99,7 +99,7 @@
           </button>
         </div>
       </nav>
-      <nav class="second-navbar d-none d-xl-block rounded-0">
+      <nav class="second-navbar position-relative d-none d-xl-block rounded-0">
         <ul class="list-group list-group-horizontal-sm border-bottom">
           <li class="list-group-item px-0 border-0 rounded-0">
             <a class="text-dark border-right px-3 font-weight-bold" href="#"
@@ -151,16 +151,20 @@
               >Vantage</a
             >
           </li>
-          <li class="list-group-item px-0 border-0 rounded-0">
+          <li class="list-group-item px-0 border-0 position-static rounded-0">
             <a class="text-dark border-right px-3 font-weight-bold" href="#"
               >Weather</a
             >
           </li>
-          <li class="list-group-item px-0 border-0 rounded-0 before-container">
-            <a class="text-dark px-3" href="#"
-              >Search <i class="fas fa-search ml-3"></i
-            ></a>
-          </li>
+          <div class="list-group-item px-0 border-0 rounded-0 before-container">
+            <input
+              type="search"
+              name="search"
+              class="border-0 search-button"
+              placeholder="Search"
+            />
+            <i class="fas fa-search ml-3"></i>
+          </div>
         </ul>
       </nav>
     </header>
