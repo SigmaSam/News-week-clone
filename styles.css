@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
 b {
   line-height: 1.1;
 }
@@ -59,6 +64,13 @@ h6 {
   border-bottom: 20px solid transparent;
 }
 
+.mwidth-250 {
+  max-width: 250px;
+}
+.mwidth-450 {
+  max-width: 450px;
+}
+
 .social-icon {
   font-size: 1.4rem;
 }
@@ -69,6 +81,10 @@ h6 {
 
 .bg-red {
   background-color: #f72210 !important;
+}
+
+.text-red {
+  color: #f72210;
 }
 
 .navbar-middle {
@@ -174,7 +190,7 @@ h3 {
 }
 
 .ad-extra-img {
-  left: 60px;
+  left: 30%;
   top: 18px;
 }
 
@@ -197,6 +213,10 @@ h3 {
   width: 160px;
 }
 
+.footer-logo > svg {
+  fill: #f72210;
+}
+
 .ad-container {
   height: 400px;
 }
@@ -216,5 +236,11 @@ h3 {
 
   .font-small {
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ad-extra-img {
+    left: 40%;
+    top: 18px;
   }
 }
