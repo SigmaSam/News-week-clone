@@ -45,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## Live preview
 
-You can check how the website looks in: [Live preview](file:///C:/Users/dekker/Documents/projects/bootstrap-pro/index.html)
+You can check how the website looks in: [Live preview](https://rawcdn.githack.com/thedekerone/News-week-clone/12319abc9f52e13fa72b37548d8093ff3b861def/index.html)
